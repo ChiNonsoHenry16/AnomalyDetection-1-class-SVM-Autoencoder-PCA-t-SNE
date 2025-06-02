@@ -1,4 +1,4 @@
-# Anomaly Detection using One class SVM, Autoencoder, Principal Component Analysis and PCA-t-SNE
+# Anomaly Detection using One class SVM, Autoencoder, Principal Component Analysis and t-SNE
 
 This project implements three anomaly detection techniques—**Isolation Forest**, **One-Class SVM**, and **Autoencoder**—on the KDDCup'99 (NSL-KDD) intrusion detection dataset. The models are evaluated using confusion matrices, ROC and Precision-Recall curves. The Autoencoder model additionally includes threshold tuning and loss visualization.
 
