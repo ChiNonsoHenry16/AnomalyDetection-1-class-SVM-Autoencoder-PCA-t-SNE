@@ -39,12 +39,11 @@ python anomaly_detection.py
 ```
 
 3. Output files (confusion matrices, plots) will be saved in the results/ folder.
-   
-autoencoder_loss.png: Loss curve of the Autoencoder training
-autoencoder_roc_auc.png: ROC Curve for Autoencoder
-autoencoder_precision_recall.png: PR Curve for Autoencoder
-pca_plot.png: 2D PCA plot of the dataset
-tsne_plot.png: 2D t-SNE plot of the dataset
+- autoencoder_loss.png: Loss curve of the Autoencoder training
+- autoencoder_roc_auc.png: ROC Curve for Autoencoder
+- autoencoder_precision_recall.png: PR Curve for Autoencoder
+- pca_plot.png: 2D PCA plot of the dataset
+- tsne_plot.png: 2D t-SNE plot of the dataset
 
 ## 📌 Notes
 
