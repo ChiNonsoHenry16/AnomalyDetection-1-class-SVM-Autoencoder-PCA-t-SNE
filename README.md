@@ -47,6 +47,6 @@ pca_plot.png: 2D PCA plot of the dataset
 tsne_plot.png: 2D t-SNE plot of the dataset
 
 ##📌 Notes
-SMOTE is used only during validation to balance classes, not for training unsupervised models.
 
+SMOTE is used only during validation to balance classes, not for training unsupervised models.
 Threshold tuning is done for the Autoencoder using the F1 score from Precision-Recall curves.
