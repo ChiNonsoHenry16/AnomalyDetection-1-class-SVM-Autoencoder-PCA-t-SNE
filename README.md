@@ -11,3 +11,19 @@ This project implements three anomaly detection techniques—**Isolation Forest*
 - 🎯 Threshold optimization using F1-score
 - 📈 Precision-Recall and ROC Curve plotting
 - 📉 Loss curve for Autoencoder training
+
+## 🛠 Requirements
+
+- Python 3.7+
+- TensorFlow
+- scikit-learn
+- imbalanced-learn
+- matplotlib
+- seaborn
+- pandas
+- numpy
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
