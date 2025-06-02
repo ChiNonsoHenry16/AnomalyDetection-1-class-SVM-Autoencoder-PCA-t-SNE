@@ -38,20 +38,15 @@ pip install -r requirements.txt
 python anomaly_detection.py
 ```
 
-Output files (confusion matrices, plots) will be saved in the results/ folder.
-
-📊 Output Examples
+3. Output files (confusion matrices, plots) will be saved in the results/ folder.
+   
 autoencoder_loss.png: Loss curve of the Autoencoder training
-
 autoencoder_roc_auc.png: ROC Curve for Autoencoder
-
 autoencoder_precision_recall.png: PR Curve for Autoencoder
-
 pca_plot.png: 2D PCA plot of the dataset
-
 tsne_plot.png: 2D t-SNE plot of the dataset
 
-📌 Notes
+##📌 Notes
 SMOTE is used only during validation to balance classes, not for training unsupervised models.
 
 Threshold tuning is done for the Autoencoder using the F1 score from Precision-Recall curves.
